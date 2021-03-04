@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from ..config import CONFIG_OBJ
+from config import CONFIG_OBJ
 from fedex.services.track_service import FedexTrackRequest
 
 def get_delivery_date(tracking_number):
